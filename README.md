@@ -175,6 +175,15 @@ cd src-tauri && cargo test
 npm run build
 ```
 
+## Screenshots
+<img width="1209" height="960" alt="Home_Screen" src="https://github.com/user-attachments/assets/f6caa0e1-70cc-4644-ad22-95d452c73b12" />
+
+<img width="1209" height="960" alt="Settings_Screen" src="https://github.com/user-attachments/assets/33634938-1b4b-4702-b0ac-7bcccb192647" />
+
+<img width="1209" height="960" alt="Calibration_Screen" src="https://github.com/user-attachments/assets/8ec7e12c-9c26-4388-b0fb-aa3e7bbc69a8" />
+
+<img width="1209" height="960" alt="About_Screen" src="https://github.com/user-attachments/assets/1fa5bdf6-fdb6-453f-a20a-d62ef0240a1a" />
+
 ## Troubleshooting
 
 ### Camera not detected
