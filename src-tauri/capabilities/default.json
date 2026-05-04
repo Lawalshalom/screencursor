@@ -1,0 +1,9 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Default capability granting the main window access to core Tauri IPC (invoke + event listen). Without this, window.__TAURI_INTERNALS__ is unavailable and invoke() throws 'Cannot read properties of undefined'.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "productName": "ScreenCursor",
+  "version": "0.1.0",
+  "identifier": "com.screencursor.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "ScreenCursor",
+        "width": 800,
+        "height": 600,
+        "visible": false,
+        "resizable": true
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "resources": ["models/*"],
+    "macOS": {
+      "entitlements": null,
+      "hardenedRuntime": false
+    },
+    "windows": {
+      "nsis": {
+        "installMode": "both"
+      }
+    }
+  }
+}
